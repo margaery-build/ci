@@ -1,4 +1,4 @@
 node {
-  stage "build"
-  echo "hello"
+  stage 'build'
+  sh 'go build'
 }
